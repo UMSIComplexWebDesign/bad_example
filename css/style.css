@@ -18,6 +18,12 @@ h1{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: repeat(5, auto)
 }
+
+img{
+	display:flex;
+	flex-direction: row;
+}
+
 .active{
 	background: white;
     text-transform: uppercase;
